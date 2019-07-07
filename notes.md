@@ -1,4 +1,5 @@
 [TUT video by Digital](https://youtu.be/TlmDsU8GirU?t=694)
+[npm short cuts](https://www.freecodecamp.org/news/8-npm-tricks-you-can-use-to-impress-your-colleagues-dbdae1ef5f9e/)
 
 #### pre requiste
 
@@ -34,6 +35,12 @@
 * webpack.mix.js
 
 npm install
+
+add Bootstrap
+npm install -D bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+require ('bootstrap');
+
 
 
 
