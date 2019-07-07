@@ -1,0 +1,23 @@
+#hero {
+
+	height: 300px;
+
+	@media screen and (min-width: 768px) {
+		height: 450px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		height: 550px;
+	}
+
+
+
+
+	width: 100%;
+	background-color: $grey__colour;
+	background-image: url('images/hero-1.png');
+	background-size: cover;
+	h1 {
+		color: $light__colour;
+	}
+}

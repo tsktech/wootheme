@@ -27,4 +27,34 @@ function tskwoo_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'tskwoo_enqueue_scripts' );
 
+// add theme support
+add_theme_support('menus');
+add_theme_support ('post-thumbnails');
+
+// register Menus
+register_nav_menus (
+	array (
+		'top-menu' => __('Top Menu', 'tskwoo'),
+	)
+);
+
+// add image size
+// add_image_size('post_image', 1100, 550, true); true-> crop
+// its better to upload all images of same size for featured image
+add_image_size('post_image', 1100, 550, false);
+
+
+// add Widgets
+register_sidebar (
+	[
+		'name'			=> 'Page Sider Bar',
+		'id'			=> 'page-sidebar',
+		'class'			=> '',
+		'before_title'	=> '<h4>',
+		'after_title'	=> '</h4>'
+	]
+);
+
+
+
 

@@ -11,5 +11,8 @@ const mix = require('laravel-mix');
  | https://github.com/laravel/laravel
  */
 
-mix.js('src/js/app.js', './')
+mix.options({
+	processCssUrls: false
+})
+	.js('src/js/app.js', './')
     .sass('src/sass/app.scss', './');

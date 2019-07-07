@@ -42,5 +42,16 @@ npm install -D bootstrap
 require ('bootstrap');
 
 
+				<!-- <?php
+				$pagination = get_the_posts_pagination( array(
+				    'mid_size' => 2,
+				    'prev_text' => __( 'Newer', 'tskwoo' ),
+				    'next_text' => __( 'Older', 'tskwoo' ),
+				) );
+				?> -->
+
+woocommerce from https://youtu.be/TlmDsU8GirU?t=6029
+
+
 
 
